@@ -559,28 +559,6 @@
             </div>
          </div>
       </div>
-      <!-- Cal floating-popup embed code begins -->
-      <script type="text/javascript">
-        (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-      Cal("init",  {origin:"https://cal.com"});
-
-        Cal("floatingButton", {"calLink":"mytribalpath/30min","buttonText":"Book Session","hideButtonIcon":true,"buttonColor":"#60A573"});
-        Cal("ui", {"theme":"light","styles":{"branding":{"brandColor":"#8CAA94"}},"hideEventTypeDetails":false, cssVarsPerTheme: {
-            light: {
-              "cal-brand": "#8CAA94",
-              "cal-text": "#2F2F2F",
-              "cal-text-emphasis": "#4AA94D408D", // text
-              "cal-border-emphasis": "#4D408D",
-              "cal-text-error": "red",
-              "cal-border": "#8CAA94",
-              "cal-border-default": "#8C",
-              "cal-border-subtle": "#8CAA94",
-              "cal-border-booker": "#8CAA94",
-              "cal-text-muted": "#8CAA94",
-              "cal-bg-emphasis": "#C2D5C4",
-            }},"layout":"month_view"});
-        </script>
-        <!-- Cal floating-popup embed code ends -->
       <script src="js/jquery.js" type="text/javascript"  ></script><script src="js/webflow-script.js" type="text/javascript"></script>
    </body>
 </html>
